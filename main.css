@@ -1,5 +1,5 @@
 body {
-  background-color: lightsalmon;
+  background-image: url("nahil-naseer-xljtGZ2-P3Y-unsplash.jpg");
 }
 
 img {
@@ -9,11 +9,15 @@ img {
 
 .card {
   margin: 20px;
+  backdrop-filter: blur(4px); 
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 23px; 
 }
 
 .card-container {
   display: flex;
   justify-content: space-around;
+  margin: 25px 60px 25px 60px;
 }
 
 .card-body {
@@ -28,33 +32,47 @@ img {
   padding: 15px;
   margin: 15px;
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  color: darkslategray;
 }
 
 .card-text {
   text-align: center;
   padding: 15px;
+  margin-top: 10px;
   font-size: 15px;
+  font-family: 'Playfair Display', serif;
 }
 
 .card-availability {
   text-align: center;
   background-color: darkgrey;
   color: yellow;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
 }
 
 .list-group-item p {
-  font-weight: bold;
+  font-size: 13px;
   margin: 0 0 0 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
 }
 
 .spec-footer {
   font-size: 10px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .pricing-header, .spec-header {
   text-decoration: underline;
   text-decoration-style: dotted;
+  font-family: 'Playfair Display', serif;
+  color: darkslategray;
+  padding-bottom: 10px;
 }
 
 .quantity-price p {
