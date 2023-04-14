@@ -1,4 +1,63 @@
 body {
   background-color: lightsalmon;
+}
+
+img {
+  justify-content: center;
+  padding: 0 10px 0 10px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card-container {
   display: flex;
+  justify-content: space-around;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.card-title {
+  border: 1px solid lightblue;
+  border-radius: 50px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.card-text {
+  text-align: center;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.card-availability {
+  text-align: center;
+  background-color: darkgrey;
+  color: yellow;
+}
+
+.list-group-item p {
+  font-weight: bold;
+  margin: 0 0 0 15px;
+}
+
+.spec-footer {
+  font-size: 10px;
+}
+
+.pricing-header, .spec-header {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.quantity-price p {
+  font-weight: bold;
+  margin-left: 15px;
 }
