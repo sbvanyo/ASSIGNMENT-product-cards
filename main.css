@@ -79,3 +79,11 @@ img {
   font-weight: bold;
   margin-left: 15px;
 }
+
+#overlay {
+  position: absolute;
+  top: 40px;
+  opacity: .5;
+  align-self: center;
+  size-adjust: 50%;
+}
